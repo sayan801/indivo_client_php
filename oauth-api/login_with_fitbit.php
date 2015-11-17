@@ -19,8 +19,8 @@
 	$client->redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].
 		dirname(strtok($_SERVER['REQUEST_URI'],'?')).'/login_with_fitbit.php';
 
-	$client->client_id = ''; $application_line = __LINE__;
-	$client->client_secret = '';
+	$client->client_id = '22B3LN'; $application_line = 'oauth test - 1.0a';
+	$client->client_secret = '7a2347d8a3b56ef8da5ba440333093a9';
 
 	if(strlen($client->client_id) == 0
 	|| strlen($client->client_secret) == 0)
