@@ -32,8 +32,8 @@
 	if(defined('OAUTH_PIN'))
 		$client->pin = OAUTH_PIN;
 
-	$client->client_id = ''; $application_line = __LINE__;
-	$client->client_secret = '';
+	$client->client_id = 'RVXZXXCLLXM8UttY5Dat7WK8N'; $application_line = 'twitter oauth test';
+	$client->client_secret = 'Y5JDuRchkDMEGJDVNDx6zd6UbZhBXxsIF1TF8F7Gf3SZGnFhAX';
 
 	if(strlen($client->client_id) == 0
 	|| strlen($client->client_secret) == 0)
